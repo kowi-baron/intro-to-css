@@ -1,0 +1,52 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  background-color: #7251b5;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+id {
+  font-size: 1.5rem;
+}
+
+header, footer {
+  background-color: #000;
+  color: #dec9e9;
+}
+
+class {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+list {
+  padding: 0;
+  list-style: none;
+}
+
+nav {
+  color: #DEC9E9;
+  text-decoration: none;
+}
+
+article {
+  width: 150px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  margin-top: 1em;
+}
+
+ol {
+  li {
+color: dc33dc;
+  }
+}
+
+main {
+  width: 100%;
+}
