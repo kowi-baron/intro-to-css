@@ -1,3 +1,4 @@
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.5;
@@ -9,7 +10,7 @@ h1, h2, h3 {
   margin-top: 0;
 }
 
-id {
+#company-name {
   font-size: 1.5rem;
 }
 
@@ -18,35 +19,36 @@ header, footer {
   color: #dec9e9;
 }
 
-class {
+.wrapper {
   max-width: 940px;
   margin: 0 auto;
   padding: 2em;
 }
 
-list {
+ul, ol {
   padding: 0;
   list-style: none;
 }
 
-nav {
+nav a {
   color: #DEC9E9;
   text-decoration: none;
 }
 
-article {
+#intro + section {
   width: 150px;
   border-radius: 50%;
   filter: grayscale(100%);
   margin-top: 1em;
 }
 
-ol {
-  li {
-color: dc33dc;
-  }
+article > img {
+width: 150px;
+border-radius: 50%;
+filter: grayscale(100%);
+margin-top: 1em;
 }
 
-main {
-  width: 100%;
+ol, li:nth-child(even) {
+color: #dc33dc;
 }
