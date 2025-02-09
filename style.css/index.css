@@ -1,10 +1,8 @@
-header, footer {
-  background-color: #000;
-  color: #dec9e9;
-}
-
-main > img {
-  width: 100%;
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  background-color: #7251b5;
 }
 
 h1, h2, h3 {
@@ -15,25 +13,15 @@ h1, h2, h3 {
   font-size: 1.5rem;
 }
 
-body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  line-height: 1.5;
-  margin: 0;
-  background-color: #7251b5;
+header, footer {
+  background-color: #000;
+  color: #dec9e9;
 }
 
 .wrapper {
   max-width: 940px;
   margin: 0 auto;
   padding: 2em;
-}
-
-#intro + section {
-  background-color: #000;
-  color: #dec9e9;
-}
-ol > li :nth-child(even) {
-  color: #dc33dc;
 }
 
 ul, ol {
@@ -46,11 +34,23 @@ nav a {
   text-decoration: none;
 }
 
-article > img {
+#intro + section {
+  background-color: #000;
+  color: #dec9e9;
+}
+  
+  article > img {
 width: 150px;
 border-radius: 50%;
 filter: grayscale(100%);
 margin-top: 1em;
 }
 
+ol > li :nth-child(even) {
+  color: #dc33dc;
+}
 
+main > img {
+  width: 100%;
+}
+  
